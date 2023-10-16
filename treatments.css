@@ -1,0 +1,26 @@
+.treatments, .treatment * {
+    box-sizing: border-box;
+}
+
+.treatments {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.treatments .treatment {
+    border: 2px solid #000000;
+    padding: 10px;
+    width: 32%;
+    margin-bottom: 10px;
+}
+
+.treatments .treatment h3 {
+    margin-top: 0;
+}
+
+.treatments .treatment img {
+    max-width: 100%;
+    height: auto;
+}
